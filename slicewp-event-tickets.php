@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name: SliceWP – Event Tickets Integration
- * Plugin URI:  https://github.com/your-org/slicewp-event-tickets
+ * Plugin Name: Event Tickets integration for SliceWP
+ * Plugin URI:  https://github.com/raphaelsuzuki/slicewp-event-tickets
  * Description: Tracks affiliate sales from The Events Calendar / Event Tickets (Tickets Commerce) inside SliceWP.
  * Version:     0.9.0
- * Author:      Your Name
- * Author URI:  https://example.com
+ * Author:      Raphael Suzuki
+ * Author URI:  https://github.com/raphaelsuzuki
  * Text Domain: slicewp-event-tickets
- * License:     GPL2
+ * License:     GPLv2 or later
  *
  * Requires Plugins: slicewp, the-events-calendar, event-tickets
  */

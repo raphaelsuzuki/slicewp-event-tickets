@@ -1,10 +1,8 @@
-=== SliceWP - Event Tickets Integration (BETA) ===
+=== Event Tickets integration for SliceWP (BETA) ===
 Contributors: raphael
-Donate link: https://example.com/donate
 Tags: affiliate, affiliate-program, commission, event-tickets, the-events-calendar, slicewp, tickets-commerce, beta
 Requires at least: 5.9
 Requires PHP: 7.4
-Tested up to: 6.6
 Stable tag: 0.9.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -15,11 +13,11 @@ BETA VERSION - Automatic affiliate commission tracking for The Events Calendar /
 
 **IMPORTANT - BETA STATUS:**
 
-This plugin is in BETA (v0.9.0). While the core functionality works and has been code-reviewed for security and performance, it requires real-world testing on production sites with actual Event Tickets orders and affiliates.
+This plugin is in BETA (v0.9.0) and needs real-world testing with Event Tickets orders and different site configurations before a stable release.
 
 We are actively collecting feedback to polish before v1.0 release. Please report any issues, edge cases, or performance concerns.
 
-**SliceWP - Event Tickets Integration** connects your affiliate program with The Events Calendar's Tickets Commerce gateway. When a customer referred by an affiliate purchases event tickets, a commission is automatically created and tracked in SliceWP.
+**Event Tickets integration for SliceWP** connects your affiliate program with The Events Calendar's Tickets Commerce gateway. When a customer referred by an affiliate purchases event tickets, a commission is automatically created and tracked in SliceWP.
 
 This plugin bridges two powerful tools:
 - **SliceWP**: A complete affiliate program management system
@@ -46,7 +44,6 @@ The entire process is automatic, auditable, and fully integrated with SliceWP's 
 *  Clickable order reference links in SliceWP
 *  Works with SliceWP's commission basis settings (per-order or per-item)
 *  Full audit logging
-*  Zero-downtime installation/removal
 
 = Requirements =
 
@@ -67,12 +64,12 @@ The entire process is automatic, auditable, and fully integrated with SliceWP's 
 2. **Activate the Plugin**
    - Log in to WordPress admin
    - Go to **Plugins** - **Installed Plugins**
-   - Find "SliceWP - Event Tickets Integration"
+   - Find "Event Tickets integration for SliceWP"
    - Click **Activate**
 
 3. **Enable the Integration**
    - Go to **SliceWP** - **Settings** - **Integrations**
-   - Find "Event Tickets" in the list
+   - Find "The Events Calendar / Event Tickets" in the list
    - Toggle **Enable**
    - Click **Save Settings**
 
@@ -81,8 +78,6 @@ The entire process is automatic, auditable, and fully integrated with SliceWP's 
    - Look for "EVENT TICKETS" entries
    - Create a test ticket purchase with an affiliate link
    - Verify commission appears in **SliceWP** - **Commissions**
-
-**That's it!** No configuration wizard, no database changes, no site downtime.
 
 == How It Works ==
 
